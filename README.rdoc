@@ -1,0 +1,28 @@
+# Rails App intended to be used by NGO's. In order to show what they are doing and how they are
+helping peoples. They can also ask for donation by doing some changes in the application.
+
+## Getting Started
+
+To setup this project, you will be needing:
+
+`Rails version >= 4.2.1`
+`Ruby version >= 2.2.2`
+
+### Installing
+
+In order to install all the Gems, you need to run `bundle install`
+
+### Database 
+
+The application uses default `sqlite3` as database.
+
+You should run:
+
+# to create database
+`rake db:create`
+
+# to run migrations
+`rake db:migrate`
+
+# to see the app working
+`rails server`
